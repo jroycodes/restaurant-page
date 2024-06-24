@@ -10,8 +10,10 @@ export function pageLoad() {
   img.src = myImage;
   img.alt = "Restaurant view";
 
+  const textDiv = document.createElement("div");
+
   //   Create headline
-  const headline = document.createElement("h2");
+  const headline = document.createElement("h1");
   headline.textContent = "We provide the best food for you";
 
   // create restaurant text
@@ -20,9 +22,11 @@ export function pageLoad() {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
 
   // append
+  textDiv.appendChild(headline);
+  textDiv.appendChild(info);
+
+  contentDiv.appendChild(textDiv);
   contentDiv.appendChild(img);
-  contentDiv.appendChild(headline);
-  contentDiv.appendChild(info);
 }
 
 document.addEventListener("DOMContentLoaded", pageLoad);
