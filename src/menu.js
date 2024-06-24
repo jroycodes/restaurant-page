@@ -13,17 +13,17 @@ export function menuLoad() {
 
     // Create the main container div
     const menuDiv = document.createElement("div");
-    menuDiv.setAttribute("id", "container");
+    menuDiv.setAttribute("class", "container");
 
     // Create a dish container
     const dish1 = document.createElement("div");
-    dish1.setAttribute("id", "dish1");
+    dish1.setAttribute("class", "dish1");
 
     // Create and set the content for the dish
     const img1 = document.createElement("img");
     img1.src = image1;
     img1.alt = "Lumpia with suace";
-    const dishName = document.createElement("h2");
+    const dishName = document.createElement("h4");
     dishName.textContent = "Lumpia with suace";
     const dishText = document.createElement("p");
     dishText.textContent =
@@ -35,7 +35,7 @@ export function menuLoad() {
     const img2 = document.createElement("img");
     img2.src = image2;
     img2.alt = "Fish and Veggie";
-    const dish2Name = document.createElement("h2");
+    const dish2Name = document.createElement("h4");
     dish2Name.textContent = "Fish and Veggie";
     const dish2Text = document.createElement("p");
     dish2Text.textContent =
@@ -47,7 +47,7 @@ export function menuLoad() {
     const img3 = document.createElement("img");
     img3.src = image3;
     img3.alt = "Tofu Chili";
-    const dish3Name = document.createElement("h2");
+    const dish3Name = document.createElement("h4");
     dish3Name.textContent = "Tofu Chili";
     const dish3Text = document.createElement("p");
     dish3Text.textContent =
@@ -59,7 +59,7 @@ export function menuLoad() {
     const img4 = document.createElement("img");
     img4.src = image4;
     img4.alt = "Lumpia with suace";
-    const dish4Name = document.createElement("h2");
+    const dish4Name = document.createElement("h4");
     dish4Name.textContent = "Egg and Cucumber";
     const dish4Text = document.createElement("p");
     dish4Text.textContent =
