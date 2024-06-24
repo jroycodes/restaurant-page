@@ -1,3 +1,8 @@
+import image1 from "./images/dish1.jpg";
+import image2 from "./images/dish2.jpg";
+import image3 from "./images/dish3.jpg";
+import image4 from "./images/dish4.jpg";
+
 export function menuLoad() {
   const menuBtn = document.getElementById("menu");
   menuBtn.addEventListener("click", () => {
@@ -83,7 +88,3 @@ export function menuLoad() {
     contentDiv.appendChild(menuDiv);
   });
 }
-import image1 from "./images/dish1.jpg";
-import image2 from "./images/dish2.jpg";
-import image3 from "./images/dish3.jpg";
-import image4 from "./images/dish4.jpg";
