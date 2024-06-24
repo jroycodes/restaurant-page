@@ -1,0 +1,40 @@
+#nav {
+  display: flex;
+  gap: 6rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+img {
+  object-fit: contain;
+  max-inline-size: 99%;
+}
+
+#content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8rem;
+  justify-content: center;
+  object-fit: contain;
+}
+
+#content h1 {
+  max-inline-size: 16ch;
+}
+
+#content p {
+  max-inline-size: 34ch;
+}
+
+#content img {
+  max-inline-size: 32%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
