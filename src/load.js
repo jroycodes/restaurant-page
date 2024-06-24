@@ -23,7 +23,6 @@ export function pageLoad() {
   contentDiv.appendChild(img);
   contentDiv.appendChild(headline);
   contentDiv.appendChild(info);
-
 }
 
 document.addEventListener("DOMContentLoaded", pageLoad);
