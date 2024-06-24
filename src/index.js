@@ -1,3 +1,10 @@
-console.log('Hello, Webpack!');
-console.log('Hello, Jonathan!');
-console.log('Hello, Roy!');
+"use strict";
+
+import { pageLoad } from "./load.js";
+pageLoad();
+
+import { menuLoad } from "./menu.js";
+menuLoad();
+
+import { loadAbout } from "./about.js";
+loadAbout();

@@ -8,9 +8,17 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
   },
   mode: "development",
+  module: {
+    rules: [
+      {
+        test: /\.(png|jpe?g|gif|svg)$/i,
+        type: "asset/resource",
+      },
+    ],
+  },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, "src/index.html"),
+      template: path.resolve(__dirname, "./src/index.html"),
       filename: "index.html",
     }),
   ],
