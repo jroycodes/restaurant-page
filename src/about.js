@@ -1,3 +1,5 @@
+import image1 from "./images/about.jpg";
+
 export function loadAbout() {
   const aboutBtn = document.getElementById("about");
   aboutBtn.addEventListener("click", () => {
@@ -83,5 +85,3 @@ export function loadAbout() {
     contentDiv.appendChild(menuDiv);
   });
 }
-
-import image1 from "./images/about.jpg";
